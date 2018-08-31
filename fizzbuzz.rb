@@ -5,6 +5,8 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   elsif int % 5 == 0 # if the number int is divisible by 5
       "Buzz" # Go fizz
+    elsif int % 15 == 0 # if the number int is divisible by 15
+        "FizzBuzz" # Go fizz
   end
 
 end
