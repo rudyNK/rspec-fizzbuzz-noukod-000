@@ -6,6 +6,6 @@ def fizzbuzz(int)
   elsif int % 5 == 0 # if the number int is divisible by 5
       "Buzz" # Go Buzz
     elsif int % 15 == 0 # if the number int is divisible by 3 and 5
-        "fizzbuzz" # Go FizzBuzz
+        "FizzBuzz" # Go FizzBuzz
   end
 end
