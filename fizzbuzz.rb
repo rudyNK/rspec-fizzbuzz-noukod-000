@@ -8,5 +8,4 @@ def fizzbuzz(int)
     elsif int % 15 == 0 # if the number int is divisible by 15
         "FizzBuzz" # Go fizz
   end
-
 end
